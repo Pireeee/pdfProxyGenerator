@@ -1,33 +1,28 @@
-# myPdfProxyGenerator
+# Pdf Proxy Generator
+
+Generate Magic the Gathering PDF proxies easily with this Python-based tool.
 
 ## Description
 
-`myPdfProxyGenerator` is a project designed to generate PDF proxies. It's built with [insert technologies used here].
-
-## Installation
-
-To install `myPdfProxyGenerator`, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/yourusername/myPdfProxyGenerator.git`
-2. Navigate into the project directory: `cd myPdfProxyGenerator`
-3. Install the dependencies: `npm install` or `yarn install` (depending on your package manager)
+`Pdf Proxy Generator` is a Python-based project designed to simplify the generation of Magic the Gathering PDF proxies. This easy-to-use tool organizes a folder of card images into a 3x3 grid, following the standard poker size (3.5" x 2.5").
 
 ## Usage
+To install `PdfProxyGenerator`, follow these steps:
 
-To use `myPdfProxyGenerator`, follow these steps:
+1. Clone the repository: `git clone https://github.com/Pireeee/pdfProxyGenerator.git`
+2. Navigate into the project directory: `cd pdfProxyGenerator`
+3. Launch ProxyGenerator.exe
 
-1. [Insert step 1 here]
-2. [Insert step 2 here]
-3. [Insert step 3 here]
+it will ask you to provide a folder of images, then a name and a place for your generated PDF.
 
 ## Contributing
 
-Contributions to `myPdfProxyGenerator` are always welcome. See the [CONTRIBUTING.md](CONTRIBUTING.md) for ways to get started.
+Contributions to `PdfProxyGenerator` are always welcome.
 
 ## License
 
-`myPdfProxyGenerator` is licensed under the [insert license here].
+`PdfProxyGenerator` is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions, feel free to reach out to us at [insert contact information here].
+If you have any questions or suggestions, feel free to [open an issue](https://github.com/Pireeee/pdfProxyGenerator/issues) or reach out to us at p.clement01@orange.fr.
