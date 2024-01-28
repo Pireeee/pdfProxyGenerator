@@ -16,12 +16,15 @@ output_filename = filedialog.asksaveasfilename(
 )
     
 start_time = time.time()
-
+print("Creating PDF document...")
 img = Resize(folder_path)
+print("Cutting images...")
 img.cut()
+print("Placing images...")
 pdf = PdfCreator(output_filename)
 pdf.place(img.tuplesimg)
+print("Saving PDF document...")
 pdf.document.save()
 print(f"Document '{output_filename}' created successfully.")
 total_time = time.time() - start_time
-print(f"Total time taken: {total_time:.2f} seconds")
+print(f"Total time : {total_time:.2f} seconds")
