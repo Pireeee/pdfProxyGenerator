@@ -9,7 +9,7 @@ class PdfCreator():
         self.formatW,self.formatH = A4
         self.output_filename = output_filename
         self.page = 1
-        self.count = 0
+        self.count = 1
 
         # Create a new PDF document
         self.document = canvas.Canvas(self.output_filename, pagesize=A4)
@@ -27,7 +27,7 @@ class PdfCreator():
             y = self.formatH - ((row + 1) * (pdf_height + self.gap_y)) - self.gap_y
             # Add the image to the PDF using drawInlineImage
             self.document.drawInlineImage(img, x, y, pdf_width, pdf_height)
-            print(f"Placed ", img," ",self.count,"/",len(imgtupleslist))
+            print(f"Placed ",self.count,"/",len(imgtupleslist))
             self.count += 1
             # Move to the next page if needed
             if (iteration + 1) % (self.grid * self.grid) == 0:

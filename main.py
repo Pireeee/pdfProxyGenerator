@@ -23,7 +23,7 @@ img.cut()
 print("Placing images...")
 pdf = PdfCreator(output_filename)
 pdf.place(img.tuplesimg)
-print("Saving PDF document...")
+print("Saving PDF document... (it may take few minutes) ")
 pdf.document.save()
 print(f"Document '{output_filename}' created successfully.")
 total_time = time.time() - start_time
